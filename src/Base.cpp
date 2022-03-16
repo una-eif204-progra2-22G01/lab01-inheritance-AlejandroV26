@@ -10,6 +10,3 @@ Base::Base() {
 Base::~Base() {
 
 }
-void Base::do_something() {
-
-}

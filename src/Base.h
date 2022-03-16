@@ -14,7 +14,7 @@ class Base {
 public:
     Base();
     virtual ~Base();
-    virtual void do_something();
+    virtual void do_something()=0;
 };
 
 
