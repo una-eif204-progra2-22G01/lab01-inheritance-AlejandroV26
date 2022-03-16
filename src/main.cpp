@@ -1,7 +1,6 @@
 //
 // Created by Alejandro on 16/03/2022.
 //
-#include "Base.h"
 #include "Derived1.h"
 #include "Derived2.h"
 
