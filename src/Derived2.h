@@ -12,6 +12,4 @@ public:
     virtual ~Derived2();
     virtual void do_something();
 };
-
-
 #endif //LAB01_INHERITANCE_DERIVED2_H

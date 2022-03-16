@@ -16,6 +16,4 @@ public:
     virtual ~Base();
     virtual void do_something()=0;
 };
-
-
 #endif //LAB01_INHERITANCE_BASE_H

@@ -14,6 +14,4 @@ public:
     virtual ~Derived1();
     virtual void do_something();
 };
-
-
 #endif //LAB01_INHERITANCE_DERIVED1_H
