@@ -13,3 +13,8 @@ Derived2::~Derived2() {
 void Derived2::do_something() {
     cout << "Derived2!!!" << endl;
 }
+string Derived2::toString() {
+    stringstream s;
+    s<<"Derived2!!!"<<endl;
+    return s.str();
+}

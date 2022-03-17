@@ -11,7 +11,9 @@ int main(int argc, const char *argv[]) {
 
     Derived1 derived1;
     derived1.do_something();
+    //cout<<derived1.toString(); //Prueba de toString de la clase Derived1
 
     Derived2 derived2;
     derived2.do_something();
+    //cout<<derived2.toString(); //Prueba de toString de la clase Derived2
 }

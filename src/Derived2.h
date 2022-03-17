@@ -11,5 +11,6 @@ public:
     Derived2();
     virtual ~Derived2();
     virtual void do_something();
+    virtual string toString();
 };
 #endif //LAB01_INHERITANCE_DERIVED2_H

@@ -3,7 +3,6 @@ project(lab01-inheritance-AlejandroV26)
 
 set(CMAKE_CXX_STANDARD 14)
 
-include_directories(.)
+include_directories(src)
 
-add_executable(lab01-Inheritance-AlejandroV26
-        src/Base.cpp src/Base.h src/Derived1.cpp src/Derived1.h src/Derived2.cpp src/Derived2.h src/main.cpp)
+add_subdirectory(src)
