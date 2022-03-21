@@ -8,7 +8,8 @@
 
 class Derived2 : public Base{
 public:
-    Derived2();
+
+    Derived2(int x);
     virtual ~Derived2();
     virtual void do_something();
     virtual string toString();

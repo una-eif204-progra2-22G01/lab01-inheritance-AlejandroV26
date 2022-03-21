@@ -4,7 +4,7 @@
 
 #include "Derived1.h"
 
-Derived1::Derived1() {
+Derived1::Derived1(int x) : Base(x) {
 
 }
 Derived1::~Derived1() {

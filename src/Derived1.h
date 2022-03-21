@@ -12,7 +12,8 @@ using namespace std;
 
 class Derived1 : public Base{
 public:
-    Derived1();
+
+    Derived1(int x);
     virtual ~Derived1();
     virtual void do_something();
     virtual string toString();
