@@ -12,13 +12,16 @@ using namespace std;
 
 class Base {
 private:
-    int X;
+    string name;
 public:
-    Base(int x);
+
+    Base();
     virtual ~Base();
-    virtual void do_something()=0;
-    virtual string toString()=0;
-    int getX() const;
-    void setX(int x);
+    virtual void do_something();
+    const string &getName() const;
+    void setName(const string &name);
+
+    friend ostream &operator<<(ostream &os, const Base &base);
+
 };
 #endif //LAB01_INHERITANCE_BASE_H

@@ -6,14 +6,20 @@
 
 using namespace std;
 
-int main(int argc, const char *argv[]) {
+int main() {
     cout << "Welcome to the UNA!" << endl << endl;
 
-    Derived1 derived1(1);
+    Derived1 derived1;
+    derived1.setName("Alejandro");
     derived1.do_something();
-    //cout<<derived1.toString(); //Prueba de toString de la clase Derived1
 
-    Derived2 derived2(2);
+
+    Derived2 derived2;
+    derived2.setName("Adrian");
     derived2.do_something();
-    //cout<<derived2.toString(); //Prueba de toString de la clase Derived2
+
+    cout<<endl;
+    cout<<"To String Derived1: "<<derived1<<endl;
+    cout<<"To String Derived2: "<<derived2<<endl;
+
 }

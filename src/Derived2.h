@@ -8,10 +8,6 @@
 
 class Derived2 : public Base{
 public:
-
-    Derived2(int x);
-    virtual ~Derived2();
-    virtual void do_something();
-    virtual string toString();
+    void do_something() override;
 };
 #endif //LAB01_INHERITANCE_DERIVED2_H

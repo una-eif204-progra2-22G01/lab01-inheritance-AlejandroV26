@@ -4,15 +4,22 @@
 
 #include "Base.h"
 
+Base::Base(){
+
+}
 Base::~Base() {
 
 }
-Base::Base(int x) : X(x) {
-
+const string &Base::getName() const {
+    return name;
 }
-int Base::getX() const {
-    return X;
+void Base::setName(const string &name) {
+    Base::name = name;
 }
-void Base::setX(int x) {
-    X = x;
+void Base::do_something() {
+    cout<<"Base!!!"<<endl;
+}
+ostream &operator<<(ostream &os, const Base &base) {
+    os << "name: " << base.name;
+    return os;
 }

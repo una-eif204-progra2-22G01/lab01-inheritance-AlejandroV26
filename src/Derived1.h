@@ -12,10 +12,6 @@ using namespace std;
 
 class Derived1 : public Base{
 public:
-
-    Derived1(int x);
-    virtual ~Derived1();
-    virtual void do_something();
-    virtual string toString();
+    void do_something() override;
 };
 #endif //LAB01_INHERITANCE_DERIVED1_H
